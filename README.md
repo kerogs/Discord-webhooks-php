@@ -1,8 +1,6 @@
 # Discord-webhooks-php
 This is a simple php code that allows you to send messages via discord webhooks. You can send directly in "embed" format.
 
-
-
 ## Use
 To send the message, we use ***curl***. 
 
