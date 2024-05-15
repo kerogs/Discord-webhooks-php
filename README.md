@@ -53,8 +53,6 @@ $msg = [
 ];
 ```
 
-
-
 ## Usage chart
 ### Base value
 |Value|Description|
@@ -105,5 +103,8 @@ $msg = [
 |url|Displays a large image at the bottom of the embed.|
 
 Examples are provided in ``webhooks-discord.php``. Other examples can be found in ``example/``
+
+## Example
+
 
 - If you'd like to find out more, you can click directly on [this link](https://birdie0.github.io/discord-webhooks-guide/examples/spotify.html) for the documentation.
