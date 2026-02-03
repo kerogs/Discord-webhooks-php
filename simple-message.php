@@ -1,7 +1,7 @@
 <?php
 
 // ? Your Discord Webhook URL (by default try to take from .env file if exists)
-$webhook_url = getenv('DISCORD_WEBHOOK_URL') ?: 'https://discord.com/api/webhooks/1436694620691234966/Gh73ZFyvPNwGS9hu2OX3KLigb9TJUjhO1TdSuYN8mO1OLF5YrcPqctJmdV8fAUtUkHNk';
+$webhook_url = getenv('DISCORD_WEBHOOK_URL') ?: 'YOUR_DISCORD_WEBHOOK_URL_HERE';
 
 $msg = [
     "avatar_url" => "", // avatar url
