@@ -4,21 +4,21 @@
 $webhook_url = getenv('DISCORD_WEBHOOK_URL') ?: 'YOUR_DISCORD_WEBHOOK_URL_HERE';
 
 $msg = [
-    "avatar_url" => "",
-    "username" => "",
-    "content" => "",
+    "avatar_url" => "", // avatar url
+    "username" => "", // username required
+    "content" => "", // default message content
     "embeds" => [
         [
-            "color" => 0xb7996d,
+            "color" => 0xb7996d, // embed color
             "author" => [
                 "name" => "",
-                "url" => "",
+                "url" => "", // name url
                 "icon_url" => ""
             ],
 
             "title" => "",
-            "url" => "",
-            "description" => "",
+            "url" => "", // url for the title
+            "description" => "", 
             "timestamp" => "",
 
             "fields" => [
@@ -26,6 +26,19 @@ $msg = [
                     "name" => "",
                     "value" => "",
                     "inline" => true
+                ],
+                [
+                    "name" => "",
+                    "value" => "",
+                    "inline" => true
+                ],
+                [
+                    "name" => "",
+                    "value" => "",
+                ],
+                [
+                    "name" => "",
+                    "value" => "",
                 ]
             ],
 

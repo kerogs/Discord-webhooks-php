@@ -1,6 +1,7 @@
 <?php
 
-$webhook_url = '';
+// ? Your Discord Webhook URL (by default try to take from .env file if exists)
+$webhook_url = getenv('DISCORD_WEBHOOK_URL') ?: 'YOUR_DISCORD_WEBHOOK_URL_HERE';
 
 $msg = [
     "content" => "",
